@@ -10,7 +10,7 @@ source  = {
 build = {
   type = 'builtin',
   modules = {
-    ['find'] = 'init.lua',
+    [package] = 'lua/'..package..'/init.lua'
   }
 }
 dependencies = {
